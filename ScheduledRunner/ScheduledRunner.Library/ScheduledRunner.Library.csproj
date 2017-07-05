@@ -43,6 +43,8 @@
     <Compile Include="Contract\IScheduler.cs" />
     <Compile Include="Contract\ITicker.cs" />
     <Compile Include="Contract\ITimeTracker.cs" />
+    <Compile Include="Domain\Ticker.cs" />
+    <Compile Include="Domain\TimeTracker.cs" />
     <Compile Include="Scheduler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

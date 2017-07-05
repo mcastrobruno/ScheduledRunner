@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduledRunner.Tests", "ScheduledRunner.Tests\ScheduledRunner.Tests.csproj", "{35C687F1-6B01-4617-A815-7D93CD99AF72}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduledRunner.Library", "ScheduledRunner.Library\ScheduledRunner.Library.csproj", "{1EB3B5A3-5B16-40AF-956F-78BE52CAA31A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduledRunner.UI", "ScheduledRunner.UI\ScheduledRunner.UI.csproj", "{A7E6FF54-23D6-4B3B-80A4-77294B48BA45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1EB3B5A3-5B16-40AF-956F-78BE52CAA31A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EB3B5A3-5B16-40AF-956F-78BE52CAA31A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EB3B5A3-5B16-40AF-956F-78BE52CAA31A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E6FF54-23D6-4B3B-80A4-77294B48BA45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E6FF54-23D6-4B3B-80A4-77294B48BA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E6FF54-23D6-4B3B-80A4-77294B48BA45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E6FF54-23D6-4B3B-80A4-77294B48BA45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

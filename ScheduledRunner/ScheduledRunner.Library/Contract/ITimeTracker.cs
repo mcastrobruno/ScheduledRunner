@@ -8,6 +8,6 @@ namespace ScheduledRunner.Library.Contract
 {
     public interface ITimeTracker
     {
-        TimeSpan TimeNow { get; set; }
+        TimeSpan TimeNow { get; }
     }
 }
